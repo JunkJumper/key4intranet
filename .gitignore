@@ -8,7 +8,6 @@
 *.suo
 *.user
 *.userosscache
-*.sln.docstates
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -385,7 +384,7 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 .idea/
-*.sln.iml
+
 
 # The following command works for downloading when using Git for Windows:
 # curl -LOf http://gist.githubusercontent.com/kmorcinek/2710267/raw/.gitignore
@@ -399,7 +398,7 @@ FodyWeavers.xsd
 # User-specific files
 *.suo
 *.user
-*.sln.docstates
+
 
 # Build results
 [Dd]ebug/
@@ -580,8 +579,7 @@ $RECYCLE.BIN/
 # SASS Compiler cache
 .sass-cache
 
-# Visual Studio 2014 CTP
-**/*.sln.ide
+
 
 # Visual Studio temp something
 .vs/
@@ -611,5 +609,3 @@ project.lock.json
 #####
 # End of core ignore list, below put you custom 'per project' settings (patterns or path)
 #####
-
-key4intranet.sln
