@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="key4.AspNetCore.ExceptionHandler" Version="5.0.0" />
+    <PackageReference Include="Key4.AspNetCore.HttpExceptions" Version="5.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\key4intranet.authentication\key4intranet.authentication.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,320 @@
+i.sidebarIcons {
+    /* class created to use and style font awesome's icons same as k4's svg library (../images/sprites.svg) */
+    position: absolute;
+    left: 24px;
+    font-size: 30px;
+    transition: all 0.15s ease;
+    display: inline-block;
+    z-index: 1;
+}
+
+div#title {
+    /*apply a little wide spece at the bottom of the div with the "title" id*/
+    margin: 0px 0px 20px 0px;
+}
+
+
+/*For reduced menu*/
+
+i.ifhidden {
+    color: transparent;
+    transition: all 0.15s ease;
+}
+
+@media (min-width: 992px) {
+    /*For active buttons on the menus*/
+    body.esp-cl.reduced-menu-left nav.menu-left a#active i {
+        color: #fff !important;
+    }
+    /*For inactive buttons on the menus*/
+    body.esp-cl.reduced-menu-left nav.menu-left a.text-original i,
+    body.esp-cl.reduced-menu-left nav.menu-left a.text-truncate i {
+        color: #2c4698 !important;
+    }
+    /*For inactive buttons on the menus*/
+    body.esp-cl.reduced-menu-left nav.menu-left a.text-original i.ifhidden,
+    body.esp-cl.reduced-menu-left nav.menu-left a.text-truncate i.ifhidden {
+        color: #2c4698 !important;
+        transition: all 0.15s ease;
+    }
+    /*When the menu is reduced, it replace the arrow by another fa-icon*/
+    body.esp-cl.reduced-menu-left nav.menu-left a.text-original i.little,
+    body.esp-cl.reduced-menu-left nav.menu-left a.text-truncate i.little {
+        display: none;
+    }
+    body.esp-cl.reduced-menu-left nav.menu-left ul li a {
+        max-width: 80px;
+        padding: 1.45rem;
+    }
+}
+
+
+/*end of reduced menu*/
+
+
+/*for tiles*/
+
+h3.section {
+    font-weight: bolder;
+}
+
+h3.section,
+h5.section {
+    color: #fff;
+    display: grid;
+    place-items: center;
+}
+
+i.section {
+    color: #fff;
+    display: grid;
+    place-items: center;
+    font-size: 100px;
+    transition: all 0.15s ease;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.sectionLine {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.sectionLine::after {
+    display: grid;
+    position: absolute;
+    place-items: center;
+    content: '';
+    z-index: 1;
+    bottom: 0;
+    width: 70%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+p.section {
+    text-align: center;
+}
+
+
+/*end of tiles*/
+
+
+/*for sub-menu*/
+
+a.active#active {
+    color: #0000ff !important;
+}
+
+li.submenu,
+a.submenu {
+    max-height: 30px;
+}
+
+body.esp-cl nav.menu-left ul li.submenu a:not(.bg-gradient)::before a.submenu:hover {
+    max-height: 30px;
+}
+
+body.esp-cl nav.menu-left ul li.submenu a:not(.bg-gradient):hover::before {
+    width: 100%;
+    max-height: 30px;
+    margin-top: 14px;
+}
+
+body.esp-cl nav.menu-left ul li.submenu a:not(.bg-gradient)::before {
+    width: 100%;
+    max-height: 30px;
+    margin-top: 14px;
+    box-shadow: 0 16px 30px rgb(0 0 0 / 0%) !important;
+}
+
+body.esp-cl nav.menu-left ul li.submenu2 a:not(.bg-gradient)::before {
+    /*for 2 lines*/
+    width: 100%;
+    max-height: 55px;
+    margin-top: 14px;
+    box-shadow: 0 16px 30px rgb(0 0 0 / 0%) !important;
+}
+
+
+/*end of sub-menu*/
+
+
+/*for boxes on each pages*/
+
+@media (min-width: 1660px) {
+    /*2 triple sections*/
+    body.esp-cl ul.tiles li.onlineLarge {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    body.esp-cl ul.tiles li.onsiteLarge {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    body.esp-cl ul.tiles li.onlineSoftware {
+        /*Software pages*/
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    body.esp-cl ul.tiles li.onsiteSoftware {
+        flex: 0 0 80%;
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 1660px) {
+    /*One single section*/
+    body.esp-cl ul.tiles li.onlineSolo {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    body.esp-cl ul.tiles li.onsiteSolo {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+
+/*end of boxex*/
+
+
+/*tools & logo*/
+
+div#logoContainer {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+div.sectionLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img.toolsLogo {
+    width: 200px;
+    transition: all 0.25s ease;
+    border-radius: 10%;
+    margin: 20px 20px 20px 20px;
+    opacity: 0.9;
+}
+
+img.toolsLogo:hover {
+    transform: scale(1.15);
+    transition: all 0.25s ease;
+    border-radius: 10%;
+    margin: 15px 15px 15px 15px;
+    box-shadow: 0 0 10px 5px rgba(11, 60, 110, 0.5);
+    opacity: 1;
+}
+
+div.logoContainer {
+    color: #0b3c6e;
+}
+
+div.logoContainer span {
+    position: absolute;
+    margin-top: 6.5rem;
+    margin-left: -9%;
+    padding: .3rem;
+    text-align: center;
+    color: #000;
+    box-shadow: 10px 10px 5px rgba(136, 136, 136, 0.336);
+    border: 1px;
+    border-radius: 15px;
+    background: radial-gradient(0px 0px, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.7));
+    transform: scale(0) rotate(-15deg);
+    transition: all .3s;
+    opacity: 0;
+}
+
+div.logoContainer:hover span,
+div.logoContainer:focus span {
+    transform: scale(1);
+    opacity: 1;
+}
+
+a.softwareLink {
+    text-decoration: none;
+}
+
+
+/*end of tools and logo*/
+
+
+/*For /tools/softwareName.html */
+
+img.softwareLogo {
+    border-radius: 10%;
+}
+
+@media (min-width: 1701px) {
+    /*One single section*/
+    img.softwareLogo {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1700px) {
+    /*One single section*/
+    img.softwareLogo {
+        width: 20%;
+    }
+}
+
+@media (max-width: 1440px) {
+    /*One single section*/
+    img.softwareLogo {
+        width: 20%;
+    }
+}
+
+@media (max-width: 990px) {
+    /*One single section*/
+    img.softwareLogo {
+        width: 20%;
+    }
+}
+
+h3.software,
+h5.software {
+    color: #000;
+}
+
+.softwareLine {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.softwareLine::after {
+    display: grid;
+    position: absolute;
+    place-items: center;
+    content: '';
+    z-index: 1;
+    bottom: 0;
+    width: 90%;
+    height: 2px;
+    background-color: rgba(34, 34, 34, 0.3);
+}
+
+
+/* End of /tools/softwareName.html */
+
+
+/* for profile type in <header> */
+
+img.namePP {
+    width: 28px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+span#WorkerName {
+    color: #2f85b3 !important;
+}
+
+
+/* end for profile type in <header> */

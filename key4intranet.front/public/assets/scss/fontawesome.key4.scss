@@ -1,0 +1,45 @@
+/*
+  ==============================================================================================
+  --------------------------|                                        |--------------------------
+  --------------------------|          CSS / Key4events 2020         |--------------------------
+  --------------------------|              Font Awesome              |--------------------------
+  --------------------------|                                        |--------------------------
+  ==============================================================================================
+*/
+
+
+@import '../_lib-scss/font-awesome/variables';
+@import '../_lib-scss/font-awesome/mixins';
+@import '../_lib-scss/font-awesome/core';
+@import '../_lib-scss/font-awesome/larger';
+@import '../_lib-scss/font-awesome/fixed-width';
+@import '../_lib-scss/font-awesome/list';
+@import '../_lib-scss/font-awesome/bordered-pulled';
+@import '../_lib-scss/font-awesome/animated';
+@import '../_lib-scss/font-awesome/rotated-flipped';
+@import '../_lib-scss/font-awesome/stacked';
+@import '../_lib-scss/font-awesome/icons';
+@import '../_lib-scss/font-awesome/screen-reader';
+
+
+$fa-font-path: '../fonts/font-awesome';
+
+.#{$fa-css-prefix}-xxxs {
+	font-size: .55em;
+}
+.#{$fa-css-prefix}-xxs {
+	font-size: .775em;
+}
+.#{$fa-css-prefix}-sm {
+	font-size: .95em;
+}
+.#{$fa-css-prefix}-md {
+	font-size: 1.15em;
+}
+
+
+
+@import "../_lib-scss/font-awesome/solid.scss";
+@import "../_lib-scss/font-awesome/regular.scss";
+@import "../_lib-scss/font-awesome/light.scss";
+@import "../_lib-scss/font-awesome/duotone.scss";

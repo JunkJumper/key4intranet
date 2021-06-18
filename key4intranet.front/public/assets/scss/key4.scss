@@ -1,0 +1,75 @@
+/*
+  ==============================================================================================
+  --------------------------|                                        |--------------------------
+  --------------------------|          CSS / Key4events 2020         |--------------------------
+  --------------------------|              Thème général             |--------------------------
+  --------------------------|                                        |--------------------------
+  ==============================================================================================
+*/
+
+
+
+
+
+/* -------------------- Global -------------------- */
+
+@import '../_lib-scss/common.scss';
+@import '../_lib-scss/bootstrap.colors.key4.scss';
+@import '../_lib-scss/key4.fonts.scss';
+@import '../_lib-scss/key4.svg.scss';
+@import '../_lib-scss/key4.customicons.scss';
+@import '../_lib-scss/key4.misc.scss';
+@import '../_lib-scss/key4.animations.scss';
+
+
+
+/* -------------------- Layout -------------------- */
+
+/* General */
+@import '../_lib-scss/key4.layout.scss';
+@import '../_lib-scss/key4.background.scss';
+
+/* Headers */
+@import '../_lib-scss/key4.header.scss';
+@import '../_lib-scss/key4.subheader.scss';
+/* Contents */
+@import '../_lib-scss/key4.content.scss';
+/* Left menu */
+@import '../_lib-scss/key4.leftmenu.scss';
+@import '../_lib-scss/key4.leftmenu.espcl.scss';
+@import '../_lib-scss/key4.leftmenu.erp.scss';
+@import '../_lib-scss/key4.leftmenu.params.scss';
+@import '../_lib-scss/key4.leftmenu.supportlink.scss';
+
+/* Right menu */
+@import '../_lib-scss/key4.rightmenu.scss';
+
+/* Footer */
+@import '../_lib-scss/key4.footer.scss';
+ 
+
+
+/* -------------------- Utils -------------------- */
+
+@import '../_lib-scss/key4.langselector.scss';
+@import '../_lib-scss/key4.flickity.scss';
+@import '../_lib-scss/key4.infopanel.scss';
+@import '../_lib-scss/key4.navtabs.scss';
+@import '../_lib-scss/key4.sticky.scss';
+@import '../_lib-scss/key4.scrollnav.scss';
+@import '../_lib-scss/key4.rubcolors.scss';
+@import '../_lib-scss/key4.popovers.scss';
+@import '../_lib-scss/key4.flags.scss';
+
+
+
+/* -------------------- Page specific -------------------- */
+
+@import '../_lib-scss/key4.page.login.scss';
+@import '../_lib-scss/key4.page.services.scss';
+@import '../_lib-scss/key4.page.evtmng.scss';
+@import '../_lib-scss/key4.page.dashboard.scss';
+@import '../_lib-scss/key4.page.searchlist.scss';
+@import '../_lib-scss/key4.content.erp.scss';
+
+
