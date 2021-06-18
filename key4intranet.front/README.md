@@ -1,5 +1,7 @@
 # key4intranet.front
 
+Partie front-end de l'intranet.
+
 ## Project setup
 ```
 npm install

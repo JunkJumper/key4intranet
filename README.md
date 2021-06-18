@@ -21,7 +21,7 @@ Il fonctionne avec les frameworks ASP .net Core 5.0 & Vue.js.
 - Il faut que votre machine possède le gestionnaire de version [git](https://git-scm.com/downloads) d'installé.
 
 
-# Guide
+## Guide
 
 Vous devez, dans un premier temps, cloner le projet git en tapant dans une invite de commande ou un terminal : ```git clone git@bitbucket.org:key4team/intranet.git```
 

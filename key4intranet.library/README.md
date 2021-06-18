@@ -1,3 +1,3 @@
 # Key4intranet 
 
-Mettez ici vos documents
+Partie dépot de fichiers pour téléchargement de l'intranet. Mettez ici vos documents.
